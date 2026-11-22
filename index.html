@@ -36,18 +36,11 @@
   .cases{padding:70px 0;}
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px;}
   .case{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 3px 14px rgba(0,0,0,.08);}
-  .case .ph{height:220px;background:#cfd6dd center/cover;display:flex;align-items:flex-end;}
-  .case .tag{background:var(--dark);color:#fff;padding:5px 14px;font-size:13px;width:fit-content;border-radius:0 8px 0 0;}
   .case .body{padding:20px;}
+  .case .tag{background:var(--dark);color:#fff;padding:5px 14px;font-size:13px;display:inline-block;margin-bottom:14px;border-radius:6px;}
   .case h3{font-size:19px;margin-bottom:10px;}
   .case .meta{display:flex;gap:18px;font-size:14px;color:#556;flex-wrap:wrap;margin-top:10px;border-top:1px solid #eee;padding-top:12px;}
   .case .meta b{display:block;color:var(--dark);font-size:15px;}
-
-  /* GALLERY */
-  .gal{padding:10px 0 70px;}
-  .gfig{margin:0;}
-  .gfig img{width:100%;height:360px;object-fit:cover;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,.1);display:block;}
-  .gfig figcaption{padding:10px 4px;font-weight:600;color:#556;}
 
   /* FORM */
   .cta{background:var(--dark);color:#fff;padding:70px 0;}
@@ -100,9 +93,9 @@
     <div class="grid">
 
       <div class="case">
-        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900')"><div class="tag">ПВЗ Wildberries</div></div>
         <div class="body">
-          <h3>Пункт выдачи заказов Wildberries, м. Автозаводская</h3>
+        <div class="tag">ПВЗ Wildberries</div>
+        <h3>Пункт выдачи заказов Wildberries, м. Автозаводская</h3>
           <p>Отделка помещения 45 м² под пункт выдачи: зона выдачи заказов со стойкой, стеллажи для хранения посылок, примерочная, освещение и вентиляция. Сдали к дате подключения маркетплейса.</p>
           <div class="meta">
             <div><b>45 м²</b> площадь</div>
@@ -113,9 +106,9 @@
       </div>
 
       <div class="case">
-        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=900')"><div class="tag">Офис</div></div>
         <div class="body">
-          <h3>Небольшой офис IT-компании, м. Менделеевская</h3>
+        <div class="tag">Офис</div>
+        <h3>Небольшой офис IT-компании, м. Менделеевская</h3>
           <p>Отделка офиса 85 м²: перегородки, электрика, потолки, напольное покрытие, покраска стен. Работали в вечернее время — офис продолжал работать.</p>
           <div class="meta">
             <div><b>85 м²</b> площадь</div>
@@ -126,9 +119,9 @@
       </div>
 
       <div class="case">
-        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1581858726788-75bc6f7e6389?w=900')"><div class="tag">Черновая отделка</div></div>
         <div class="body">
-          <h3>Черновая отделка квартиры, ЖК «Риверсайд»</h3>
+        <div class="tag">Черновая отделка</div>
+        <h3>Черновая отделка квартиры, ЖК «Риверсайд»</h3>
           <p>Полный черновой цикл: демонтаж, возведение перегородок, электрика, штукатурка, стяжка. Объект готов к чистовой отделке.</p>
           <div class="meta">
             <div><b>54 м²</b> площадь</div>
@@ -139,9 +132,9 @@
       </div>
 
       <div class="case">
-        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=900')"><div class="tag">ПВЗ Ozon</div></div>
         <div class="body">
-          <h3>Пункт выдачи заказов Ozon, м. Академическая</h3>
+        <div class="tag">ПВЗ Ozon</div>
+        <h3>Пункт выдачи заказов Ozon, м. Академическая</h3>
           <p>Отделка помещения 52 м² под пункт выдачи: демонтаж старой отделки, зона выдачи со стойкой, стеллажи для заказов, примерочная, точечное освещение, свежая покраска.</p>
           <div class="meta">
             <div><b>52 м²</b> площадь</div>
@@ -159,14 +152,6 @@
 </section>
 
 <!-- GALLERY -->
-<section class="gal">
-  <div class="wrap">
-    <figure class="gfig">
-      <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200" alt="Отделка интерьера">
-      <figcaption>Отделка интерьера</figcaption>
-    </figure>
-  </div>
-</section>
 
 <!-- FORM -->
 <section class="cta" id="form">
