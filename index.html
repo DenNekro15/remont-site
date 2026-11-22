@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ремонт и отделка под ключ в Москве — фиксированная смета, гарантия 3 года</title>
-<meta name="description" content="Ремонт квартир и офисов под ключ в Москве. Фиксированная смета в договоре, срок с неустойкой, гарантия 3 года. Бесплатный замер и смета за 24 часа.">
+<title>Отделочные работы в квартирах и коммерческих помещениях — Москва</title>
+<meta name="description" content="Отделочные работы в квартирах и коммерческих помещениях в Москве. Бесплатный замер и смета за 24 часа, поэтапная оплата.">
 <style>
   :root{--accent:#e8730c;--dark:#1c2430;--light:#f6f7f9;}
   *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif;}
@@ -15,23 +15,20 @@
   /* HEADER */
   header{background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.06);position:sticky;top:0;z-index:10;}
   .hdr{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;max-width:1100px;margin:0 auto;}
-  .logo{font-size:22px;font-weight:800;}
-  .logo span{color:var(--accent);}
+  .hdr .tag{font-weight:700;font-size:16px;color:var(--dark);}
   .hdr a.btn{margin-left:12px;}
 
   /* HERO */
-  .hero{background:linear-gradient(rgba(28,36,48,.82),rgba(28,36,48,.82)),url('https://images.unsplash.com/photo-1581858726788-75bc6f7e6389?w=1600') center/cover;color:#fff;padding:90px 0;}
-  .hero h1{font-size:42px;line-height:1.2;max-width:720px;}
-  .hero p{font-size:19px;margin:18px 0 30px;max-width:640px;opacity:.92;}
-  .hero .usps{display:flex;gap:28px;flex-wrap:wrap;margin-top:34px;}
+  .hero{background:linear-gradient(rgba(28,36,48,.82),rgba(28,36,48,.82)),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600') center/cover;color:#fff;padding:90px 0;text-align:center;}
+  .hero h1{font-size:42px;line-height:1.2;max-width:860px;margin:0 auto;}
+  .hero p{font-size:19px;margin:18px auto 30px;max-width:640px;opacity:.92;}
+  .hero .usps{display:flex;gap:28px;justify-content:center;flex-wrap:wrap;margin-top:34px;}
   .usps div{display:flex;align-items:center;gap:10px;font-weight:600;}
   .usps b{color:var(--accent);font-size:24px;}
 
   /* BUTTONS */
   .btn{display:inline-block;background:var(--accent);color:#fff;padding:15px 34px;border-radius:8px;text-decoration:none;font-weight:700;font-size:17px;border:none;cursor:pointer;transition:.2s;}
   .btn:hover{background:#c95f06;}
-  .btn-outline{background:transparent;border:2px solid #fff;}
-  .btn-outline:hover{background:rgba(255,255,255,.15);}
   .btn-wa{background:#25d366;}
   .btn-tg{background:#229ed9;}
 
@@ -39,20 +36,17 @@
   .cases{padding:70px 0;}
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px;}
   .case{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 3px 14px rgba(0,0,0,.08);}
-  .case .ph{height:200px;background:#cfd6dd center/cover;display:flex;align-items:flex-end;}
+  .case .ph{height:220px;background:#cfd6dd center/cover;display:flex;align-items:flex-end;}
   .case .tag{background:var(--dark);color:#fff;padding:5px 14px;font-size:13px;width:fit-content;border-radius:0 8px 0 0;}
   .case .body{padding:20px;}
   .case h3{font-size:19px;margin-bottom:10px;}
   .case .meta{display:flex;gap:18px;font-size:14px;color:#556;flex-wrap:wrap;margin-top:10px;border-top:1px solid #eee;padding-top:12px;}
   .case .meta b{display:block;color:var(--dark);font-size:15px;}
 
-  /* PRICES */
-  .prices{background:var(--light);padding:70px 0;}
-  .ptable{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;}
-  .pitem{background:#fff;border-radius:12px;padding:26px;box-shadow:0 2px 10px rgba(0,0,0,.06);}
-  .pitem h3{font-size:20px;margin-bottom:8px;}
-  .pitem .price{font-size:30px;font-weight:800;color:var(--accent);}
-  .pitem ul{margin:14px 0 0 18px;font-size:15px;color:#445;}
+  /* GALLERY */
+  .gal{padding:10px 0 70px;}
+  .gal .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;}
+  .gal img{width:100%;height:240px;object-fit:cover;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,.1);display:block;}
 
   /* FORM */
   .cta{background:var(--dark);color:#fff;padding:70px 0;}
@@ -75,7 +69,7 @@
 
 <header>
   <div class="hdr">
-    <div class="logo">Строй<span>Мастер</span></div>
+    <div class="tag">Отделочные работы · Москва</div>
     <div>
       <a href="tel:+79001234567" style="font-weight:700;text-decoration:none;color:inherit;">+7 (900) 123-45-67</a>
       <a href="#form" class="btn" style="padding:10px 22px;">Смета за 24 часа</a>
@@ -86,85 +80,85 @@
 <!-- HERO -->
 <section class="hero">
   <div class="wrap">
-    <h1>Ремонт квартир и офисов под ключ в Москве — по фиксированной смете</h1>
-    <p>Цена не вырастет в процессе: фиксируем её в договоре. Срок — с неустойкой 0,1% за каждый день просрочки. Гарантия на работы — 3 года.</p>
+    <h1>Отделочные работы в квартирах и коммерческих помещениях</h1>
+    <p>Квартиры под ключ, черновая отделка, офисы и другие коммерческие объекты в Москве. Работаем по договору с фиксированной сметой, оплата поэтапная.</p>
     <a href="#form" class="btn">Бесплатный замер + смета за 24 часа</a>
     <div class="usps">
-      <div><b>✓</b> Фикс-смета в договоре</div>
-      <div><b>✓</b> Неустойка за срыв сроков</div>
-      <div><b>✓</b> Гарантия 3 года</div>
+      <div><b>✓</b> Работаем по договору</div>
       <div><b>✓</b> Поэтапная оплата</div>
+      <div><b>✓</b> Ежедневный фотоотчёт</div>
+      <div><b>✓</b> Свои бригады</div>
     </div>
   </div>
 </section>
 
 <!-- CASES -->
-<section class="cases">
+<section class="cases" id="cases">
   <div class="wrap">
     <h2>Наши объекты</h2>
     <div class="grid">
 
       <div class="case">
-        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800')"><div class="tag">Квартира под ключ</div></div>
+        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900')"><div class="tag">Квартира под ключ</div></div>
         <div class="body">
           <h3>2-комн. квартира в новостройке, ЖК «Северный»</h3>
-          <p>Черновая отделка → полностью готовая квартира: электрика, сантехника, плитка, малярка, кухни и шкафы по проекту.</p>
+          <p>Черновая отделка → полностью готовая квартира: электрика, сантехника, плитка, малярка, мебель по проекту.</p>
           <div class="meta">
             <div><b>68 м²</b> площадь</div>
-            <div><b>2,9 млн ₽</b> смета</div>
+            <div><b>2,9 млн ₽</b> стоимость</div>
             <div><b>3,5 мес.</b> срок</div>
           </div>
         </div>
       </div>
 
       <div class="case">
-        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800')"><div class="tag">Ванная + кухня</div></div>
+        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=900')"><div class="tag">Офис</div></div>
         <div class="body">
-          <h3>Санузел и кухня в сталинке, м. Таганская</h3>
-          <p>Полная замена коммуникаций, гидроизоляция, плитка, мебель. Сдали на 4 дня раньше договора.</p>
+          <h3>Небольшой офис IT-компании, м. Менделеевская</h3>
+          <p>Отделка офиса 85 м²: перегородки, электрика, потолки, напольное покрытие, покраска стен. Работали в вечернее время — офис продолжал работать.</p>
           <div class="meta">
-            <div><b>22 м²</b> площадь</div>
-            <div><b>640 тыс. ₽</b> смета</div>
-            <div><b>26 дней</b> срок</div>
+            <div><b>85 м²</b> площадь</div>
+            <div><b>1,4 млн ₽</b> стоимость</div>
+            <div><b>1 мес.</b> срок</div>
           </div>
         </div>
       </div>
 
       <div class="case">
-        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=800')"><div class="tag">Офис</div></div>
+        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1581858726788-75bc6f7e6389?w=900')"><div class="tag">Черновая отделка</div></div>
         <div class="body">
-          <h3>Офис IT-компании, Москва-Сити</h3>
-          <p>Отделка 240 м² под ключ: перегородки, электрика, вентиляция, потолки, напольные покрытия. Работали в ночную смену — офис работал.</p>
+          <h3>Черновая отделка квартиры, ЖК «Риверсайд»</h3>
+          <p>Полный черновой цикл: демонтаж, возведение перегородок, электрика, штукатурка, стяжка. Объект готов к чистовой отделке.</p>
           <div class="meta">
-            <div><b>240 м²</b> площадь</div>
-            <div><b>4,1 млн ₽</b> смета</div>
+            <div><b>54 м²</b> площадь</div>
+            <div><b>780 тыс. ₽</b> стоимость</div>
+            <div><b>6 недель</b> срок</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="case">
+        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900')"><div class="tag">Кафе</div></div>
+        <div class="body">
+          <h3>Отделка кафе, м. Чеховская</h3>
+          <p>Отделка зала и кухни под открытие: электрика, вентиляция, отделка стен и потолка, напольные покрытия.</p>
+          <div class="meta">
+            <div><b>120 м²</b> площадь</div>
+            <div><b>2,2 млн ₽</b> стоимость</div>
             <div><b>2 мес.</b> срок</div>
           </div>
         </div>
       </div>
 
       <div class="case">
-        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800')"><div class="tag">Спасение ремонта</div></div>
+        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900')"><div class="tag">Санузел</div></div>
         <div class="body">
-          <h3>Доделали ремонт после ушедшей бригады</h3>
-          <p>Клиент остался на 60% готовности без подрядчика. Пересчитали, дофинансировали по прозрачной смете, сдали за 7 недель.</p>
+          <h3>Санузел и кухня под ключ, м. Таганская</h3>
+          <p>Полная замена коммуникаций, гидроизоляция, плитка, мебель. Сдали на 4 дня раньше срока.</p>
           <div class="meta">
-            <div><b>54 м²</b> площадь</div>
-            <div><b>1,2 млн ₽</b> смета</div>
-            <div><b>7 недель</b> срок</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="case">
-        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800')"><div class="tag">Вторичка</div></div>
-        <div class="body">
-          <h3>Капремонт 3-комн. квартиры, м. Юго-Западная</h3>
-          <p>Полная реконструкция квартиры 1978 года: демонтаж, замена проводки и труб, выравнивание, отделка под ключ.</p>
-          <div class="meta">
-            <div><b>82 м²</b> площадь</div>
-            <div><b>3,7 млн ₽</b> смета</div>
-            <div><b>4 мес.</b> срок</div>
+            <div><b>22 м²</b> площадь</div>
+            <div><b>640 тыс. ₽</b> стоимость</div>
+            <div><b>26 дней</b> срок</div>
           </div>
         </div>
       </div>
@@ -173,47 +167,14 @@
   </div>
 </section>
 
-<!-- PRICES -->
-<section class="prices" id="prices">
+<!-- GALLERY -->
+<section class="gal">
   <div class="wrap">
-    <h2>Цены «от»</h2>
-    <div class="ptable">
-      <div class="pitem">
-        <h3>Косметический ремонт</h3>
-        <div class="price">от 4 500 ₽/м²</div>
-        <ul>
-          <li>Малярные работы, обои</li>
-          <li>Замена напольных покрытий</li>
-          <li>Срок: от 3 недель</li>
-        </ul>
-      </div>
-      <div class="pitem">
-        <h3>Капитальный ремонт</h3>
-        <div class="price">от 9 000 ₽/м²</div>
-        <ul>
-          <li>Демонтаж, электрика, сантехника</li>
-          <li>Стяжка, плитка, малярка</li>
-          <li>Срок: от 2 месяцев</li>
-        </ul>
-      </div>
-      <div class="pitem">
-        <h3>Под ключ</h3>
-        <div class="price">от 15 000 ₽/м²</div>
-        <ul>
-          <li>Полный цикл до заселения</li>
-          <li>Дизайн-проект, меблировка</li>
-          <li>Срок: от 3 месяцев</li>
-        </ul>
-      </div>
-      <div class="pitem">
-        <h3>Коммерческие помещения</h3>
-        <div class="price">от 12 000 ₽/м²</div>
-        <ul>
-          <li>Офисы, кафе, салоны, клиники</li>
-          <li>Работаем без остановки бизнеса</li>
-          <li>Смета за 48 часов</li>
-        </ul>
-      </div>
+    <div class="row">
+      <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=700" alt="Отделка комнаты">
+      <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=700" alt="Отделка кухни">
+      <img src="https://images.unsplash.com/photo-1600566752355-35717292edf0?w=700" alt="Отделка интерьера">
+      <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=700" alt="Отделка офиса">
     </div>
   </div>
 </section>
@@ -228,10 +189,10 @@
         <input type="text" name="name" placeholder="Ваше имя" required>
         <input type="tel" name="phone" placeholder="Телефон" required>
         <select name="type">
-          <option>Ремонт квартиры под ключ</option>
-          <option>Косметический / частичный ремонт</option>
-          <option>Санузел, кухня, ванная</option>
+          <option>Квартира под ключ</option>
+          <option>Черновая отделка</option>
           <option>Офис / коммерческое помещение</option>
+          <option>Санузел, кухня, ванная</option>
           <option>Спасение брошенного ремонта</option>
         </select>
         <input type="text" name="info" placeholder="Район / метраж (необязательно)">
@@ -256,7 +217,7 @@
 </section>
 
 <footer>
-  <div class="wrap">© 2026 СтройМастер — ремонт и отделка, Москва. ИНН 0000000000 · Работаем по договору · Гарантия 3 года</div>
+  <div class="wrap">© 2026 Отделочные работы · Москва · Работаем по договору</div>
 </footer>
 
 <script>
@@ -267,7 +228,6 @@ document.getElementById('lead').addEventListener('submit', function(e){
              '%0AТелефон: ' + f.get('phone') +
              '%0AТип работ: ' + encodeURIComponent(f.get('type')) +
              '%0AИнфо: ' + encodeURIComponent(f.get('info') || '—');
-  // Заявка уходит в WhatsApp. После подключения хостинга/бэкенда можно переключить на почту или CRM.
   window.open('https://wa.me/79001234567?text=' + text, '_blank');
 });
 </script>
