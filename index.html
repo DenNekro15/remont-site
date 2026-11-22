@@ -45,8 +45,9 @@
 
   /* GALLERY */
   .gal{padding:10px 0 70px;}
-  .gal .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;}
-  .gal img{width:100%;height:240px;object-fit:cover;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,.1);display:block;}
+  .gfig{margin:0;}
+  .gfig img{width:100%;height:360px;object-fit:cover;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,.1);display:block;}
+  .gfig figcaption{padding:10px 4px;font-weight:600;color:#556;}
 
   /* FORM */
   .cta{background:var(--dark);color:#fff;padding:70px 0;}
@@ -99,10 +100,10 @@
     <div class="grid">
 
       <div class="case">
-        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1553413077-190dd305871c?w=900')"><div class="tag">ПВЗ Wildberries</div></div>
+        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900')"><div class="tag">ПВЗ Wildberries</div></div>
         <div class="body">
           <h3>Пункт выдачи заказов Wildberries, м. Автозаводская</h3>
-          <p>Отделка помещения 45 м² под ПВЗ: стеллажи, электрика и освещение, вентиляция, напольное покрытие, покраска стен. Открыли в срок к подключению к маркетплейсу.</p>
+          <p>Отделка помещения 45 м² под пункт выдачи: зона выдачи заказов со стойкой, стеллажи для хранения посылок, примерочная, освещение и вентиляция. Сдали к дате подключения маркетплейса.</p>
           <div class="meta">
             <div><b>45 м²</b> площадь</div>
             <div><b>420 тыс. ₽</b> стоимость</div>
@@ -138,10 +139,10 @@
       </div>
 
       <div class="case">
-        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1586528116311-ad8dd80c9d02?w=900')"><div class="tag">ПВЗ Ozon</div></div>
+        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=900')"><div class="tag">ПВЗ Ozon</div></div>
         <div class="body">
           <h3>Пункт выдачи заказов Ozon, м. Академическая</h3>
-          <p>Отделка помещения 52 м² под ПВЗ: демонтаж старой отделки, электрика и точечное освещение, стеллажи, напольное покрытие, свежая покраска.</p>
+          <p>Отделка помещения 52 м² под пункт выдачи: демонтаж старой отделки, зона выдачи со стойкой, стеллажи для заказов, примерочная, точечное освещение, свежая покраска.</p>
           <div class="meta">
             <div><b>52 м²</b> площадь</div>
             <div><b>490 тыс. ₽</b> стоимость</div>
@@ -160,12 +161,10 @@
 <!-- GALLERY -->
 <section class="gal">
   <div class="wrap">
-    <div class="row">
-      <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=700" alt="Отделка комнаты">
-      <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=700" alt="Отделка кухни">
-      <img src="https://images.unsplash.com/photo-1600566752355-35717292edf0?w=700" alt="Отделка интерьера">
-      <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=700" alt="Отделка офиса">
-    </div>
+    <figure class="gfig">
+      <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200" alt="Отделка интерьера">
+      <figcaption>Отделка интерьера</figcaption>
+    </figure>
   </div>
 </section>
 
